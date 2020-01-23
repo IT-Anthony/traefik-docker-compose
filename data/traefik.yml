@@ -1,0 +1,22 @@
+# Activation du dashboard
+api:
+  dashboard: true
+# Création de deux entrypoints (80-443) avec un nom pour chaque
+entryPoints:
+  http:
+    address: ":80"
+  https:
+    address: ":443"
+# Certificat pour challenge https
+certificatesResolvers:
+  http:
+    acme:
+      email: anthony@notamax.be
+      storage: acme.json
+      httpChallenge:
+        entryPoint: http
+# Provider Docker
+providers:
+  docker:
+    endpoint: "unix:///var/run/docker.sock"
+    exposedByDefault: false
