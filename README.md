@@ -23,4 +23,4 @@ Pour Let's Encrypt, bien penser à modifier l'email présent dans ./data/traefik
 
 # Infos complémentaires 
 
-Si vous désirez obtenir plus d'informations, rendez-vous sur mon site personnel à l'adresse de l'article correspondant: *in progress*.
+Si vous désirez obtenir plus d'informations, rendez-vous sur mon site personnel à l'adresse de l'article correspondant: *https://notamax.be/docker-presentation-et-debuts-avec-traefik/*.
