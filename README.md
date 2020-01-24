@@ -3,7 +3,7 @@
 # Introduction
 Fichier docker-compose permettant de démarrer le service Traefik en version 2.0 avec un fichier de configuration disponible dans le dossier data.
 
-![alt text](https://i.imgur.com/gD12BK0.png)
+![alt text](https://i.imgur.com/UCvrKjO.png
 
 
 # Explications
