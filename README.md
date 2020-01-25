@@ -15,6 +15,7 @@ Ceci est donc un simple fichier Docker Compose démarrant un conteneur Traefik e
 ```
 git clone https://github.com/IT-Anthony/traefik-docker-compose.git
 cd Traefik
+docker network create proxy
 docker-compose up -d
 ```
 Ensuite accéder à l'interface web via http://traefik.localhost, avec comme credentials "it-anthony / password" par défaut. Les informations peuvent (et __doivent__) êtres changées via le fichier docker-compose.yml 
